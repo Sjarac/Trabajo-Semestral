@@ -21,6 +21,13 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
+/*Hover para el navBar */
+ul, li, li a{
+  opacity: 0.5;
+}
+ul, li, li a:hover{
+  opacity: 1.0;
+}
 /*Logo de navBar*/
 .logo{
   width: 65px;

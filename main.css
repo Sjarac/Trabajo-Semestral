@@ -3,7 +3,7 @@ body{
 }
 
 /*Creacion de navBar*/
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,6 +22,13 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
+/*Hover para el navBar */
+ul, li, li a{
+  opacity: 0.5;
+}
+ul, li, li a:hover{
+  opacity: 1.0;
+}
 /*Logo de navBar*/
 .logo{
   width: 65px;
@@ -38,4 +45,12 @@ footer{
   padding-top: 20%;
   
 }
-
+/*no se como quedara mejor, si el carrusel centrado o
+ la imagen estirada por toda la pantalla, si pueden prueben a estirarla con
+ otras imagenes que sean para el trabajo*/
+ 
+/*Imagen centrada del carrusel */
+.carousel-inner{
+  padding-left: 27%;
+}
+/*Flechas de carrusel centradas*/
