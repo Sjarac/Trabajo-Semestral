@@ -44,6 +44,14 @@ ul, li, li a:hover{
   width: 65px;
   height: 55px;
 }
+.LogoCompleto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 20%;
+  padding-top: 1%;
+}
 /*Tamaño de imagenes de carrusel*/
 .slide1, .slide2, .slide3{
     width: 800px;
