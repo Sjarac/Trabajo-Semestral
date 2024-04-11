@@ -8,6 +8,9 @@ body{
   min-height: 100%;
   background-color: #3e5f8a;
 }
+body h1{
+  color: white;
+}
 footer{
   background-color: rgb(37, 141, 145);
   margin-top: auto;
@@ -54,6 +57,7 @@ ul, li, li a:hover{
 }
 /*Tamaño de imagenes de carrusel*/
 .slide1, .slide2, .slide3{
+    padding-top: 5%;
     width: 800px;
     height: 500px;
 }
@@ -64,6 +68,6 @@ ul, li, li a:hover{
  
 /*Imagen centrada del carrusel */
 .carousel-inner{
-  padding-left: 27%;
+  padding-left: 29%;
 }
 /*Flechas de carrusel centradas*/
