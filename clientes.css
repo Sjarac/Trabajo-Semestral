@@ -68,6 +68,37 @@ html, body {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
   }
-  .texto{
-    
-  }
+  form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h4 {
+  color: #333;
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+input, textarea{
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 6px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  align-items: center;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 200%;
+  align-items: center;
+}
