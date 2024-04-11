@@ -56,3 +56,18 @@ html, body {
     width: 20%;
     padding-top: 1%;
   }
+  .cliente1{
+    
+    width: auto;
+    height: 300px;
+    padding-left: 2%;
+  }
+  .container{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+  }
+  .texto{
+    
+  }
