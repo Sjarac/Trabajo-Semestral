@@ -87,6 +87,7 @@ height: 55px;
   position: absolute;
   right: 0;
   background-color: white;
+
 }
 .container nav i:hover .nav-card{
   font-size: 1.4rem;
@@ -103,6 +104,7 @@ height: 55px;
   background-color: transparent;
   border: solid thin black;
   cursor: pointer;
+;
 }
 .container nav i{
   font-size: 3rem;

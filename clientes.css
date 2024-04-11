@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #3e5f8a;
+  }
+  footer{
+    background-color: rgb(37, 141, 145);
+    margin-top: auto;
+  }
+  h1{
+    color: white;
+    font-weight: bold;
+  }
+    /*Creacion de navBar*/
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  /*Hover para el navBar */
+  ul, li, li a{
+    opacity: 0.5;
+  }
+  ul, li, li a:hover{
+    opacity: 1.0;
+  }
+  /*Logo de navBar*/
+  .logo{
+    width: 65px;
+    height: 55px;
+  }
+  .LogoCompleto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 20%;
+    padding-top: 1%;
+  }

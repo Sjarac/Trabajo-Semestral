@@ -52,3 +52,21 @@ ul, li, li a:hover{
   width: 20%;
   padding-top: 1%;
 }
+ .container-form p{
+ font-size: 17px; 
+ line-height: 1,6;
+ margin-bottom: 20px;
+}
+.container-form a{
+  font-size: 17px; 
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color:aqua;
+  font-weight: 700; 
+}
+.container-form a i{
+  color: black;
+margin-right: 10px;
+}
