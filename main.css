@@ -66,13 +66,8 @@ ul, li, li a:hover{
     height: 600px;
 
 }
-
-/*no se como quedara mejor, si el carrusel centrado o
- la imagen estirada por toda la pantalla, si pueden prueben a estirarla con
- otras imagenes que sean para el trabajo*/
  
 /*Imagen centrada del carrusel */
 .carousel-inner{
   padding-left: 29%;
 }
-/*Flechas de carrusel centradas*/
