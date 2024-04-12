@@ -1,17 +1,27 @@
 html, body {
     height: 100%;
+    
   }
   
   body{
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    background-color: #3e5f8a;
-  }
+    background-image: url("https://img.freepik.com/foto-gratis/efecto-movimiento-burbujas-pintura-acrilica_23-2148315517.jpg?t=st=1712879599~exp=1712883199~hmac=60a9c7f687baee97669f6d935d0a79c7968b5ffecb2492bbab6339d4f5291eba&w=1380") ;  
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    
+}
+
   footer{
-    background-color: rgb(37, 141, 145);
+    background-color:#333;
     margin-top: auto;
+    
   }
+
+
+  
   h1{
     color: white;
     font-weight: bold;
@@ -51,10 +61,11 @@ html, body {
   .LogoCompleto{
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: none;
     height: 150px;
     width: 20%;
     padding-top: 1%;
+
   }
   .cliente1{
     
@@ -84,6 +95,8 @@ h4 {
   margin: 0;
   font-size: 25px;
   margin-bottom: 20px;
+  color:white;
+  font-family: ar;
 }
 
 input, textarea{
